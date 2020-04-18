@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1587169743 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1587169413 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+
+1587169569 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp1\funciones.h
+
