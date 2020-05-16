@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1589665875 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"empleados.h"
+	"validacion.h"
+
+1589327667 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validacion.h"
+
+1589333218 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\validacion.h
+
+1589671797 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\empleados.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validacion.h"
+	"validacion.h"
+	"empleados.h"
+
+1589668148 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\empleados.h
+
