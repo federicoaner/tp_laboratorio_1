@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1589665875 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\main.c
+1589672729 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -14,7 +14,7 @@
 
 1589333218 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\validacion.h
 
-1589671797 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\empleados.c
+1589673525 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp2\empleados.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>

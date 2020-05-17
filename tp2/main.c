@@ -29,7 +29,7 @@ int main()
     eSector sectores[]={{1,"Operaciones"}, {2,"RRHH"},{3,"Finanzas"},{4,"Compras"},{5,"Sistemas"} };
 
     inicializarEmpleados(lista,TAM);
-    ordenarEmpleado(lista,TAM,sectores,TAMSEC);
+    //ordenarEmpleado(lista,TAM,sectores,TAMSEC);
 
 
      do

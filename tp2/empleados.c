@@ -288,6 +288,7 @@ do
         {
 
         case 'a':
+            ordenarEmpleado(vec,tam,sectores,tamSec);
             mostrarEmpleados(vec,tam,sectores,tamSec);
             break;
 
@@ -341,19 +342,19 @@ void ordenarEmpleado(eEmpleado vec[],int tam, eSector sectores[],int tamSec)
     {
         for (int j=i+1; j<tam; j++)
         {
-            if(vec[i].apellido<vec[j].apellido)
+             if(vec[i].idSector<vec[j].idSector)
                 // if(vec[i].id>vec[j].id) //  ordenar por id
             {
                 auxEmpleado=vec[i];
                 vec[i]=vec[j];
                 vec[j]=auxEmpleado;
             }
-           /* else if(vec[i].idSector>vec[j].idSector && vec[i].apellido,vec[j].apellido>0) // ordenar x sector
+            else if(vec[i].idSector<vec[j].idSector && strcmp(vec[i].apellido,vec[j].apellido)>0) // ordenar x sector
             {
                 auxEmpleado=vec[i];
                 vec[i]=vec[j];
                 vec[j]=auxEmpleado;
-            }*/
+            }
         }
     }
 
