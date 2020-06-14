@@ -290,3 +290,44 @@
 
 1589344018 c:\users\fede\desktop\tp3 aner\validacion.h
 
+1592086401 source:c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"Employee.h"
+	"validacion.h"
+
+1533133022 c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\linkedlist.h
+
+1592003783 c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\employee.h
+	"parser.h"
+
+1591890337 c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\parser.h
+	"LinkedList.h"
+
+1589344018 c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\validacion.h
+
+1592091863 source:c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\employee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"Employee.h"
+	"LinkedList.h"
+
+1592092409 source:c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"Employee.h"
+
+1592023264 c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\controller.h
+
+1589338466 source:c:\users\fede\desktop\git repos\tp_laboratorio_1\tp3 aner\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validacion.h"
+

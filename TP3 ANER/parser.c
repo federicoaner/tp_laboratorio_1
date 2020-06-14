@@ -42,8 +42,6 @@ int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
                 todoOk = 1;
             }
         }
-
-
     }
     return todoOk;
 }
