@@ -1,0 +1,54 @@
+# depslib dependency file v1.0
+1593298833 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\controller.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+	"tarjeta.h"
+	"validacion.h"
+
+1593007246 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\linkedlist.h
+
+1593296711 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\tarjeta.h
+	"parser.h"
+
+1593291097 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\parser.h
+	"LinkedList.h"
+
+1593296728 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\validacion.h
+
+1593293136 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\linkedlist.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"LinkedList.h"
+
+1593296913 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\parser.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"tarjeta.h"
+
+1593296249 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\tarjeta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"tarjeta.h"
+	"LinkedList.h"
+
+1589338466 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\validacion.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"validacion.h"
+
+1593301759 source:c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\main.c
+	<stdio.h>
+	<stdlib.h>
+	"LinkedList.h"
+	"Controller.h"
+	"tarjeta.h"
+
+1593290951 c:\users\fede\desktop\programacion1 git\trabajo_clases\tp4 aner_scott\controller.h
+
