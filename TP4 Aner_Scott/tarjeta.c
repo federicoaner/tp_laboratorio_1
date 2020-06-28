@@ -6,7 +6,11 @@
 #include "LinkedList.h"
 
 
-
+/** \brief Reserva espacion en memoria para una Tarjeta
+ *
+ * \return puntero a nueva tarjeta
+ *
+ */
 
 
 Tarjeta* tarjeta_new()
@@ -27,6 +31,17 @@ Tarjeta* tarjeta_new()
     return newTarjeta;
 
 }
+
+
+/** \brief recibe datos como string, los convierte y carga los carga en una nueva Tarjeta
+ *
+ * \param dniStr char* dni
+ * \param apellidoStr char*
+ * \param char* tarjetaStr
+ * \param char* cuotasStr
+ * \return Tarjeta* puntero al nuevo tarjeta
+ *
+ */
 
 Tarjeta* tarjeta_newParametros(char* dniStr,char* apellidoStr,char* tarjetaStr,char* cuotasStr, char* montoStr)
 {
@@ -59,6 +74,12 @@ void tarjeta_delete(Tarjeta* unaTarjeta)
 }
 
 
+ /**
+ * \brief Lista las  tarjetas de la LinkedList
+ * \param lista LinkedList*, LinkedList
+
+ */
+
 
 void listarTarjetas(LinkedList* lista)
 {
@@ -73,6 +94,20 @@ void listarTarjetas(LinkedList* lista)
 
 }
 
+
+/** \brief Carga el Dni de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param dni int* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
+
+ /**
+ * \brief Lista  una tarjeta de la LinkedList
+ * \param lista LinkedList*, LinkedList
+
+ */
 
 void listarTarjeta(LinkedList* lista, int index)
 {
@@ -99,6 +134,14 @@ void listarTarjeta(LinkedList* lista, int index)
 }
 
 
+/** \brief carga Dni correspondiente a la tarjeta
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param dni int dni de la tarjeta
+ * \return todoOK
+ *
+ */
+
 int tarjeta_setDni(Tarjeta* this,int dni)
 {
     int todoOk = 0;
@@ -112,6 +155,14 @@ int tarjeta_setDni(Tarjeta* this,int dni)
     return todoOk;
 
 }
+
+/** \brief carga Apellido cliente correspondiente a la tarjeta
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param char* apellido
+ * \return todoOK
+ *
+ */
 
 int tarjeta_setApellido(Tarjeta* this,char* apellido)
 {
@@ -128,6 +179,14 @@ int tarjeta_setApellido(Tarjeta* this,char* apellido)
 
 }
 
+/** \brief carga tipo de tarjeta correspondiente a Tarjeta
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param char* tarjeta
+ * \return todoOK
+ *
+ */
+
 int tarjeta_setTarjeta(Tarjeta* this,char* tarjeta)
 {
 
@@ -143,6 +202,13 @@ int tarjeta_setTarjeta(Tarjeta* this,char* tarjeta)
 
 }
 
+/** \brief carga las cuotas correspondiente a Tarjeta
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param int cuotas
+ * \return todoOK
+ *
+ */
 
 int tarjeta_setCuotas(Tarjeta* this,int cuotas)
 {
@@ -158,6 +224,13 @@ int tarjeta_setCuotas(Tarjeta* this,int cuotas)
 
 }
 
+/** \brief carga monto correspondiente a Tarjeta
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param int monto
+ * \return todoOK
+ *
+ */
 
 int tarjeta_setMonto(Tarjeta* this,int monto)
 {
@@ -175,6 +248,14 @@ int tarjeta_setMonto(Tarjeta* this,int monto)
 
 }
 
+
+/** \brief busca el indice del dni especificado
+ *
+ * \param pArrayListTarjeta
+ * \param int dni
+ * \return indice del dni especificado
+ *
+ */
 
 
 int tarjeta_SearchIdIndex (LinkedList* pArrayListTarjeta, int dni)
@@ -197,6 +278,13 @@ int tarjeta_SearchIdIndex (LinkedList* pArrayListTarjeta, int dni)
     return retorno;
 }
 
+/** \brief Carga el Dni de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param dni int* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
 
 int tarjeta_getDni(Tarjeta* this,int* dni)
 {
@@ -209,6 +297,15 @@ int tarjeta_getDni(Tarjeta* this,int* dni)
     }
     return todoOK;
 }
+
+
+/** \brief Carga el monto de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param monto int* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
 
 
 int tarjeta_getMonto(Tarjeta* this,int* monto) {
@@ -225,6 +322,16 @@ int tarjeta_getMonto(Tarjeta* this,int* monto) {
 
 }
 
+
+/** \brief Carga el nro de cuotas de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param cuaotas int* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
+
+
 int tarjeta_getCuotas(Tarjeta* this,int* cuotas) {
 
     int todoOk = 0;
@@ -239,6 +346,15 @@ int tarjeta_getCuotas(Tarjeta* this,int* cuotas) {
 
 }
 
+/** \brief Carga el apellido del cliente de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param apellido char* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
+
+
 int tarjeta_getApellido(Tarjeta* this,char* apellido) {
 
     int todoOk = 0;
@@ -251,6 +367,15 @@ int tarjeta_getApellido(Tarjeta* this,char* apellido) {
     return todoOk;
 
 }
+
+
+/** \brief Carga el tipo de tarjeta de una Tarjeta en una variable
+ *
+ * \param this Tarjeta* puntero a la tarjeta
+ * \param tarjeta char* puntero a la variable
+ * \return todoOk 1 si es correcto
+ *
+ */
 
 int tarjeta_getTarjeta(Tarjeta* this,char* tarjeta) {
 
